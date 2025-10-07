@@ -4,6 +4,14 @@ Modelado de un inversor usando una funcion modelo. En este caso una sigmoide que
 
 ![Circuito de un comparador Analógic](delta.png)
 
+ Simulacion realizada en Synopsys
+
+
+![simulación del Modelo RNM](out.png)
+
+
+### Comando para configurar synopsys usando **Makefile**
+
 ```bash
 setenv GIT_ROOT `git rev-parse --show-toplevel`
 setenv UVM_WORK $GIT_ROOT/work/uvm
